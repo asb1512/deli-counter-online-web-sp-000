@@ -10,7 +10,6 @@ def line(andre_deli)
       line_number = andre_deli.index(person) + 1
       line_order = "#{line_number}. #{person}"
     end
-    binding.pry
     line_status = "The line is currently: "
     puts line_status + numbered_line.join(", ")
   end
