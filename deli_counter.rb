@@ -11,7 +11,7 @@ def line(andre_deli)
       line_order = "#{line_number}. #{person}"
     end
     line_status = "The line is currently: "
-    puts line_status + numbered_line
+    line_status + numbered_line
   end
 end
 
