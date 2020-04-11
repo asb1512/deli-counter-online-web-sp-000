@@ -6,11 +6,12 @@ def line(andre_deli)
   if andre_deli.length() == 0
     puts "The line is currently empty."
   elsif andre_deli.length() > 0
-    andre_deli.map do |person|
+    numbered_line = andre_deli.map do |person|
       line_number = andre_deli.index(person) + 1
       line_order = "#{line_number}. #{person}"
     end
     line_status = "The line is currently: "
+    puts line_status + numbered_line
   end
 end
 
