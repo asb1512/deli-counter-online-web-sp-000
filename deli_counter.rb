@@ -10,7 +10,6 @@ def line(andre_deli)
       line_status = "The line is currently: "
       line_number = andre_deli.index(person) + 1
       line_order = "#{line_number}. #{person}"
-      andre_deli
     end
   end
 end
