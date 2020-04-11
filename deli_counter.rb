@@ -12,7 +12,7 @@ def line(andre_deli)
     end
     binding.pry
     line_status = "The line is currently: "
-    line_status + numbered_line
+    puts line_status + numbered_line.join
   end
 end
 
